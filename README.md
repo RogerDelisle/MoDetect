@@ -3,7 +3,7 @@
 This application will take audio input base-band from any digital RF transmission and automatically detect the transmission mode. Content of the signal is not demodulated or interpreted, only the signal mode, such as CW, PSK31, RTTY, JT-65, etc. will be detected. This will be accomplished by decomposing the audio signal into its FFT signature over time. Then a basic Markov-chain analysis will compare the transition matrix' signature with the typical one for each mode until a match is found.
 
 ## Status
-The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing portion and it will be uploaded in late April 2018. Meanwhile, the user interface and signal-generation simulator compile and work well as a demo of the concept.
+The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing portion and it will be uploaded in late April 2018. Meanwhile, the user interface and signal-generation simulator that compile and work well as a demo of the concept will be uploaded in the first week of April 2018.
 
 ## Environment
 I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome.
