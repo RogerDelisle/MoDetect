@@ -6,7 +6,7 @@ This application will take audio input base-band from any digital RF transmissio
 The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing portion and it will be uploaded in late April 2018. Meanwhile, the user interface and signal-generation simulator that compile and work well as a demo of the concept will be uploaded in the first week of April 2018.
 
 ## Environment
-I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome.
+I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet put much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome.
 
 ## Language Features, Classes, Techniques
 
@@ -18,6 +18,7 @@ I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling usi
 - Use of STL containers such as std::vector<>, std::map<>
 - Use of a variadic template to process a parameter pack
 - Real-time programming and example of using the std::chrono STL templates.
+- Digital Signal Processing (DSP)
 
 
 # Installation
